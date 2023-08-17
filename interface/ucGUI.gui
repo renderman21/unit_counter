@@ -1,0 +1,75 @@
+guiTypes = {
+	containerWindowType = {
+		name = "unit_counter_container_mod"
+		origo = upper_left
+		position = {x = 1000 y = 4}
+		size = {
+			width = 500
+			height = 100
+		}
+
+		background = {
+			name="unit_counter_container_bg"
+			spriteType = "GFX_generic_text_bg_203"
+		}
+
+		iconType = {
+			name = "army_uc_icon"
+			position = {
+				x = 15 
+				y = 5
+			}
+			spriteType = "GFX_endgame_army_button"
+			scale = 0.4
+		}
+
+		instantTextBoxType = {
+			name = "army_uc_ph"
+			position = {
+				x = 45
+				y = 5
+			}
+			text = "60"
+		}
+
+		iconType = {
+			name = "navy_uc_icon"
+			spriteType = "GFX_endgame_navy_button"
+			position = {
+				x=70
+				y=5
+			}
+			scale=0.4
+
+		}
+
+		instantTextBoxType = {
+			name = "navy_uc_ph"
+			position = {
+				x = 105
+				y = 5
+			}
+			text="60"
+		}
+
+		iconType = {
+			name = "airforce_uc_icon"
+			spriteType = "GFX_endgame_air_button"
+			position = {
+				x = 135
+				y=5
+			}
+			scale=0.4
+
+		}
+
+		instantTextBoxType = {
+			name = "airforce_uc_ph"
+			text = "60"
+			position = {
+				x = 165
+				y = 5
+			}
+		}
+	}
+}

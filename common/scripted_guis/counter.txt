@@ -1,0 +1,10 @@
+scripted_gui = {
+	unit_counter_container = {
+		window_name = "unit_counter_container_mod"
+		context_type = player_context
+
+		visible = {
+			always = yes
+		}
+	}
+}
