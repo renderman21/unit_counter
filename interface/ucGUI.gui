@@ -16,7 +16,7 @@ guiTypes = {
 		iconType = {
 			name = "army_uc_icon"
 			position = {
-				x = 15 
+				x = 20 
 				y = 5
 			}
 			spriteType = "GFX_endgame_army_button"
@@ -26,7 +26,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "army_uc_ph"
 			position = {
-				x = 45
+				x = 50
 				y = 5
 			}
 			text = "60"
@@ -36,7 +36,7 @@ guiTypes = {
 			name = "navy_uc_icon"
 			spriteType = "GFX_endgame_navy_button"
 			position = {
-				x=70
+				x=75
 				y=5
 			}
 			scale=0.4
@@ -46,7 +46,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "navy_uc_ph"
 			position = {
-				x = 105
+				x = 110
 				y = 5
 			}
 			text="60"
@@ -56,7 +56,7 @@ guiTypes = {
 			name = "airforce_uc_icon"
 			spriteType = "GFX_endgame_air_button"
 			position = {
-				x = 135
+				x = 140
 				y=5
 			}
 			scale=0.4
@@ -67,7 +67,7 @@ guiTypes = {
 			name = "airforce_uc_ph"
 			text = "60"
 			position = {
-				x = 165
+				x = 170
 				y = 5
 			}
 		}
