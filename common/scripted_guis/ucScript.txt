@@ -2,9 +2,14 @@ scripted_gui = {
 	unit_counter_container = {
 		window_name = "unit_counter_container_mod"
 		context_type = player_context
+		parent_window_token = "top_bar"
 
 		visible = {
-			always = yes
+			is_ai = no
+		}
+
+		ai_enabled = {
+			always = no
 		}
 	}
 }
