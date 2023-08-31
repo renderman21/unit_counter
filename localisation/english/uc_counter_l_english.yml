@@ -1,4 +1,5 @@
 ﻿l_english:
-# UC_ARMY_COUNT: "[ROOT.num_armies]" 
-# UC_NAVY_COUNT:0 "[Root.num_ships]"
-# # UC_AIR_COUNT:0 "[Root.num_deployed_planes]"
+
+  AIR_FORCE_DISPLAY:0 "[air_display]"
+  AIR_FORCE_DISPLAY_REG:0 "[?ROOT.num_deployed_planes]"
+  AIR_FORCE_DISPLAY_TRD:0 "[?ROOT.num_deployed_planes|*]"
