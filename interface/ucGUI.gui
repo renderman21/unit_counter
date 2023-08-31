@@ -1,3 +1,5 @@
+#Please Fix: it actually covers the nuclear icon, when the player had research nukes. Please fix that by either putting an arrow on the left 
+#side of the screen or create a shortcut that will display it
 guiTypes = {
 	containerWindowType = {
 		name = "unit_counter_container_mod"
@@ -82,7 +84,7 @@ guiTypes = {
 			maxHeight = 10
 			fixedsize = yes
 
-			text = "[?ROOT.num_deployed_planes|*]"
+			text = "AIR_FORCE_DISPLAY"
 		}
 	}
 }
