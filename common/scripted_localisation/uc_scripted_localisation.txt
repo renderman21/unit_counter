@@ -1,0 +1,16 @@
+defined_text = {
+	name = air_display
+
+	text = {
+		trigger = {
+			has_deployed_air_force_size = {
+				size > 999
+			}
+		}
+		localization_key = AIR_FORCE_DISPLAY_TRD
+	}
+
+	text = {
+		localization_key = AIR_FORCE_DISPLAY_REG
+	}
+}
